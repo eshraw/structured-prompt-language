@@ -20,6 +20,12 @@
       "language": "spl",
       "scopeName": "source.spl",
       "path": "./syntaxes/spl.tmLanguage.json"
-    }]
+    }],
+    "snippets": [
+      {
+        "language": "spl",
+        "path": "./snippets/spl.json"
+      }
+    ]
   }
 }

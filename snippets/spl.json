@@ -1,0 +1,72 @@
+{
+    "AgentInstruction": {
+        "prefix": "AgentInstruction",
+        "body": ["<AgentInstruction>$1</AgentInstruction>"],
+        "description": "AgentInstruction tag"
+    },
+    "Instruction": {
+        "prefix": "Instruction",
+        "body": ["<Instruction>$1</Instruction>"],
+        "description": "Instruction tag"
+    },
+    "Role": {
+        "prefix": "Role",
+        "body": ["<Role>$1</Role>"],
+        "description": "Role tag"
+    },
+    "Description": {
+        "prefix": "Description",
+        "body": ["<Description>$1</Description>"],
+        "description": "Description tag"
+    },
+    "Example": {
+        "prefix": "Example",
+        "body": ["<Example>$1</Example>"],
+        "description": "Example tag"
+    },
+    "Query": {
+        "prefix": "Query",
+        "body": ["<Query>$1</Query>"],
+        "description": "Query tag"
+    },
+    "Goal": {
+        "prefix": "Goal",
+        "body": ["<Goal>$1</Goal>"],
+        "description": "Goal tag"
+    },
+    "Primary": {
+        "prefix": "Primary",
+        "body": ["<Primary>$1</Primary>"],
+        "description": "Primary tag"
+    },
+    "Secondary": {
+        "prefix": "Secondary",
+        "body": ["<Secondary>$1</Secondary>"],
+        "description": "Secondary tag"
+    },
+    "Tertiary": {
+        "prefix": "Tertiary",
+        "body": ["<Tertiary>$1</Tertiary>"],
+        "description": "Tertiary tag"
+    },
+    "UserInput": {
+        "prefix": "UserInput",
+        "body": ["<UserInput>$1</UserInput>"],
+        "description": "UserInput tag"
+    },
+    "AgentOutput": {
+        "prefix": "AgentOutput",
+        "body": ["<AgentOutput>$1</AgentOutput>"],
+        "description": "AgentOutput tag"
+    },
+    "ChatbotInstruction": {
+        "prefix": "ChatbotInstruction",
+        "body": ["<ChatbotInstruction>$1</ChatbotInstruction>"],
+        "description": "ChatbotInstruction tag"
+    },
+    "ChatbotOutput": {
+        "prefix": "ChatbotOutput",
+        "body": ["<ChatbotOutput>$1</ChatbotOutput>"],
+        "description": "ChatbotOutput tag"
+    }
+} 
