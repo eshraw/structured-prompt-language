@@ -1,0 +1,40 @@
+{
+    // symbols used as brackets
+    "brackets": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["<", ">"]
+    ],
+    // symbols that are auto closed when typing
+    "autoClosingPairs": [
+        ["{", "}"],
+        ["<", ">"],
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""],
+        ["<AgentInstruction>", "</AgentInstruction>"],
+        ["<Instruction>", "</Instruction>"],
+        ["<Role>", "</Role>"],
+        ["<Description>", "</Description>"],
+        ["<Example>", "</Example>"],
+        ["<Query>", "</Query>"],
+        ["<Goal>", "</Goal>"],
+        ["<Primary>", "</Primary>"],
+        ["<Secondary>", "</Secondary>"],
+        ["<Tertiary>", "</Tertiary>"],
+        ["<UserInput>", "</UserInput>"],
+        ["<AgentOutput>", "</AgentOutput>"],
+        ["<ChatbotInstruction>", "</ChatbotInstruction>"],
+        ["<ChatbotOutput>", "</ChatbotOutput>"]
+    ],
+    // symbols that can be used to surround a selection
+    "surroundingPairs": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""],
+        ["'", "'"],
+        ["<", ">"]
+    ]
+}

@@ -1,0 +1,54 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Structured Prompt Language",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#tags"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.spl",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.spl",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.spl",
+					"match": "\\\\."
+				}
+			]
+		},
+		"tags": {
+			"patterns": [
+				{
+					"name": "meta.tag.spl",
+					"begin": "(<)(AgentInstruction|Instruction|Role|Description|Example|Query|Goal|Primary|Secondary|Tertiary|UserInput|AgentOutput|ChatbotInstruction|ChatbotOutput)(>)",
+					"end": "(</)(AgentInstruction|Instruction|Role|Description|Example|Query|Goal|Primary|Secondary|Tertiary|UserInput|AgentOutput|ChatbotInstruction|ChatbotOutput)(>)",
+					"beginCaptures": {
+						"1": { "name": "punctuation.definition.tag.begin.spl" },
+						"2": { "name": "entity.name.tag.spl" },
+						"3": { "name": "punctuation.definition.tag.begin.spl" }
+					},
+					"endCaptures": {
+						"1": { "name": "punctuation.definition.tag.end.spl" },
+						"2": { "name": "entity.name.tag.spl" },
+						"3": { "name": "punctuation.definition.tag.end.spl" }
+					}
+				}
+			]
+		}
+	},
+	"scopeName": "source.spl"
+}
