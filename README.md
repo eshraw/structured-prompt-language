@@ -19,7 +19,7 @@ This extension is a syntax highlighting and autocomplete extension for the Struc
 
 ## About the Structured Prompt Language (SPL)
 
-The Structured Prompt Language (SPL) is a declarative language that allows you to create prompts in a more readable and maintainable way as well as making the prompt more efficient. SPL is composed of 3 main components, tags, variables, and strings.
+The Structured Prompt Language (SPL) is a declarative language that allows you to create prompts in a more readable and maintainable way as well as making the prompt more efficient. SPL is composed of 3 main components, tags, variables, and strings. The SPL syntax works within the n8n workflow editor but could be modified to work with other systems. This extension works with .spl files.
 
 ### Tags
 
