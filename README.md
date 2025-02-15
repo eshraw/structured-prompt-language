@@ -2,63 +2,59 @@
 
 This extension is a syntax highlighting and autocomplete extension for the Structured Prompt Language (SPL).
 
+## Installation
+
+- Open the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
+- Search for "Structured Prompt Language" in the search bar.
+- Click on the "Install" button.
+
 ## Features
 
-- Syntax highlighting
--- Tags
--- Variables
--- Strings
+- Syntax highlighting for:
+    - Tags
+    - Variables
+    - Strings
 - Autocomplete
 - Hover information
 
+## About the Structured Prompt Language (SPL)
+
+The Structured Prompt Language (SPL) is a declarative language that allows you to create prompts in a more readable and maintainable way as well as making the prompt more efficient. SPL is composed of 3 main components, tags, variables, and strings.
+
+### Tags
+
+Tags are used to define sections within the prompt. They are used to make the prompt more readable and maintainable. They help the user to organize the prompt into logical sections that are in turn more efficient to compute by the LLM model.
+The following tags are available in SPL:
+
+- `<AgentInstruction>`: Used to provide instructions to an AI agent. While this tag is not required, it is recommended to distinguish easily an Agent prompt from a non-Agent prompt
+- `<Instruction>`: General purpose instruction tag
+- `<Role>`: Defines the role or persona the AI should adopt
+- `<Description>`: Provides detailed descriptions or context
+- `<Example>`: Contains example content or usage patterns. Generally paired with the `<UserInput>` and any output tags.
+- `<Query>`: Used for queries to be executed by the LLM model. Depending on the use case, this tag can be used for research queries, data retrieval, tool calls, etc.
+- `<Goal>`: Defines objectives or desired outcomes, generally paired with the `<Primary>`, `<Secondary>`, and `<Tertiary>` tags.
+- `<Primary>`: Indicates primary or main content
+- `<Secondary>`: Indicates secondary or supporting content
+- `<Tertiary>`: Indicates tertiary or additional content
+- `<UserInput>`: Marks sections for user input
+- `<AgentOutput>`: Designates expected agent output
+- `<ChatbotInstruction>`: Specific instructions for chatbot behavior
+- `<ChatbotOutput>`: Expected chatbot response content
+- `<OutputLanguage>`: Designates the language of the output
+
+### Variables
+
+Variables are used to store values that can be fed to the LLM model and reused in the prompt. They are defined using the `$` symbol followed by the variable name constrained by `{}` such as `{$variable_name}`. This syntax works within the n8n workflow editor but could be modified to work with other systems.
+
+### Strings
+
+Strings are the core of the prompt. They carry the information that will be fed to the LLM model.
+
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+No requirements or dependencies needed to run this extension.
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release of the Structured Prompt Language (SPL) syntax highlighting and autocomplete extension.

@@ -12,8 +12,8 @@
     ],
     // symbols that are auto closed when typing
     "autoClosingPairs": [
+        { "open": "{", "close": "}", "notIn": ["string", "comment"] },
         { "open": "<", "close": ">" },
-        { "open": "{", "close": "}" },
         { "open": "[", "close": "]" },
         { "open": "(", "close": ")" },
         { "open": "\"", "close": "\"" },

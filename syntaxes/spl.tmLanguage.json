@@ -35,13 +35,13 @@
 		},
 		"variables": {
 			"name": "string.interpolated.spl",
-			"match": "\\{[^}]*\\}"
+			"match": "\\{\\$[a-zA-Z_][a-zA-Z0-9_]*\\}"
 		},
 		"tags": {
 			"patterns": [
 				{
 					"name": "meta.tag.spl",
-					"begin": "(<)(AgentInstruction|Instruction|Role|Description|Example|Query|Goal|Primary|Secondary|Tertiary|UserInput|AgentOutput|ChatbotInstruction|ChatbotOutput)(>)",
+					"begin": "(<)(AgentInstruction|Instruction|Role|Description|Example|Query|Goal|Primary|Secondary|Tertiary|UserInput|AgentOutput|ChatbotInstruction|ChatbotOutput|OutputLanguage)(>)",
 					"end": "(</)(\\2)(>)",
 					"beginCaptures": {
 						"1": { "name": "punctuation.definition.tag.begin.spl" },

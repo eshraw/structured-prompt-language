@@ -68,5 +68,15 @@
         "prefix": "ChatbotOutput",
         "body": ["<ChatbotOutput>$1</ChatbotOutput>"],
         "description": "ChatbotOutput tag"
+    },
+    "Variable": {
+        "prefix": "{",
+        "body": ["{$${1:variableName}}"],
+        "description": "Create a variable"
+    },
+    "OutputLanguage": {
+        "prefix": "OutputLanguage",
+        "body": ["<OutputLanguage>$1</OutputLanguage>"],
+        "description": "OutputLanguage tag"
     }
 } 
