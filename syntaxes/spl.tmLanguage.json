@@ -19,7 +19,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.spl",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(spl|StructuredPromptLanguage)\\b"
 			}]
 		},
 		"strings": {
