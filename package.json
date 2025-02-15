@@ -1,8 +1,9 @@
 {
   "name": "structured-prompt-language",
+  "publisher": "eshraw",
   "displayName": "Structured Prompt Language",
   "description": "Syntax highlighting for the structured prompt language",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.97.0"
   },
