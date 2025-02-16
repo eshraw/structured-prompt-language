@@ -5,7 +5,7 @@
   "description": "Syntax highlighting for the structured prompt language",
   "version": "1.0.0",
   "engines": {
-    "vscode": "^1.97.0"
+    "vscode": "^1.90.0"
   },
   "categories": [
     "Programming Languages"
