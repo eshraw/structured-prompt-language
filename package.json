@@ -3,7 +3,7 @@
   "publisher": "eshraw",
   "displayName": "Structured Prompt Language",
   "description": "Syntax highlighting for the structured prompt language",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -11,17 +11,26 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "spl",
-      "aliases": ["Structured Prompt Language", "spl"],
-      "extensions": [".spl"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "spl",
-      "scopeName": "source.spl",
-      "path": "./syntaxes/spl.tmLanguage.json"
-    }],
+    "languages": [
+      {
+        "id": "spl",
+        "aliases": [
+          "Structured Prompt Language",
+          "spl"
+        ],
+        "extensions": [
+          ".spl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "spl",
+        "scopeName": "source.spl",
+        "path": "./syntaxes/spl.tmLanguage.json"
+      }
+    ],
     "snippets": [
       {
         "language": "spl",
