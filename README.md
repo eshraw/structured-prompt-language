@@ -58,3 +58,6 @@ No requirements or dependencies needed to run this extension.
 ### 1.0.0
 
 Initial release of the Structured Prompt Language (SPL) syntax highlighting and autocomplete extension.
+
+### 1.0.1
+Update vscode supported version to 1.90
