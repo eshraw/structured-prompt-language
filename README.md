@@ -27,6 +27,7 @@ Tags are used to define sections within the prompt. They are used to make the pr
 The following tags are available in SPL:
 
 - `<AgentInstruction>`: Used to provide instructions to an AI agent. While this tag is not required, it is recommended to distinguish easily an Agent prompt from a non-Agent prompt
+- `<Instructions>`: General purpose instruction tag to regroup multiple instructions
 - `<Instruction>`: General purpose instruction tag
 - `<Role>`: Defines the role or persona the AI should adopt
 - `<Description>`: Provides detailed descriptions or context
@@ -41,6 +42,9 @@ The following tags are available in SPL:
 - `<ChatbotInstruction>`: Specific instructions for chatbot behavior
 - `<ChatbotOutput>`: Expected chatbot response content
 - `<OutputLanguage>`: Designates the language of the output
+- `<OutputFormat>`: Designates the format of the output
+- `<Constraints>`: Defines constraints or limitations for the prompt
+- `<Constraint>`: Defines a constraint for the prompt
 
 ### Variables
 
