@@ -41,7 +41,7 @@
 			"patterns": [
 				{
 					"name": "meta.tag.spl",
-					"begin": "(<)(AgentInstruction|Instruction|Role|Description|Example|Query|Goal|Primary|Secondary|Tertiary|UserInput|AgentOutput|ChatbotInstruction|ChatbotOutput|OutputLanguage)(>)",
+					"begin": "(<)(AgentInstruction|Instructions|Instruction|Role|Description|Example|Query|Goal|Primary|Secondary|Tertiary|UserInput|AgentOutput|ChatbotInstruction|ChatbotOutput|OutputLanguage|OutputFormat|Constraints|Constraint)(>)",
 					"end": "(</)(\\2)(>)",
 					"beginCaptures": {
 						"1": { "name": "punctuation.definition.tag.begin.spl" },

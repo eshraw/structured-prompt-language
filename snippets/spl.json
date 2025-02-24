@@ -4,6 +4,11 @@
         "body": ["<AgentInstruction>$1</AgentInstruction>"],
         "description": "AgentInstruction tag"
     },
+    "Instructions": {
+        "prefix": "Instructions",
+        "body": ["<Instructions>$1</Instructions>"],
+        "description": "Instructions tag"
+    },
     "Instruction": {
         "prefix": "Instruction",
         "body": ["<Instruction>$1</Instruction>"],
@@ -78,5 +83,20 @@
         "prefix": "OutputLanguage",
         "body": ["<OutputLanguage>$1</OutputLanguage>"],
         "description": "OutputLanguage tag"
+    },
+    "OutputFormat": {
+        "prefix": "OutputFormat",
+        "body": ["<OutputFormat>$1</OutputFormat>"],
+        "description": "OutputFormat tag"
+    },
+    "Constraints": {
+        "prefix": "Constraints",
+        "body": ["<Constraints>$1</Constraints>"],
+        "description": "Constraints tag"
+    },
+    "Constraint": {
+        "prefix": "Constraint",
+        "body": ["<Constraint>$1</Constraint>"],
+        "description": "Constraint tag"
     }
 } 
