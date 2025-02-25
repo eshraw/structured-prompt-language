@@ -45,13 +45,11 @@
 					"end": "(</)(\\2)(>)",
 					"beginCaptures": {
 						"1": { "name": "punctuation.definition.tag.begin.spl" },
-						"2": { "name": "support.class.component.spl" },
-						"3": { "name": "punctuation.definition.tag.begin.spl" }
+						"2": { "name": "support.class.component.spl" }
 					},
 					"endCaptures": {
 						"1": { "name": "punctuation.definition.tag.end.spl" },
-						"2": { "name": "support.class.component.spl" },
-						"3": { "name": "punctuation.definition.tag.end.spl" }
+						"2": { "name": "support.class.component.spl" }
 					},
 					"contentName": "meta.tag.content.spl",
 					"patterns": [
@@ -59,6 +57,30 @@
 						{ "include": "#strings" },
 						{ "include": "#keywords" },
 						{ "include": "#variables" }
+					]
+				},
+				{
+					"name": "meta.template.spl",
+					"begin": "(<)(Template)(>)",
+					"end": "(</)(\\2)(>)",
+					"beginCaptures": {
+						"1": { "name": "punctuation.definition.tag.begin.spl" },
+						"2": { "name": "keyword.control.template.spl" }
+					},
+					"endCaptures": {
+						"1": { "name": "punctuation.definition.tag.end.spl" },
+						"2": { "name": "support.class.component.spl" }
+					},
+					"patterns": [
+						{
+							"name": "meta.tag.content.spl",
+							"patterns": [
+								{ "include": "#tags" },
+								{ "include": "#strings" },
+								{ "include": "#keywords" },
+								{ "include": "#variables" }
+							]
+						}
 					]
 				}
 			]
