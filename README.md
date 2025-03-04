@@ -65,3 +65,10 @@ Initial release of the Structured Prompt Language (SPL) syntax highlighting and 
 
 ### 1.0.1
 Update vscode supported version to 1.90
+
+### 1.1.0
+- Add support for the `<Instructions>` tag
+- Add support for the `<Constraints>` tag
+- Add support for the `<Constraint>` tag
+- Add support for the `<OutputFormat>` tag
+- Add support for the `Templates` prefilled prompt template
