@@ -41,7 +41,7 @@
 			"patterns": [
 				{
 					"name": "meta.tag.spl",
-					"begin": "(<)(AgentInstruction|Instructions|Instruction|Role|Description|Example|Query|Goal|Primary|Secondary|Tertiary|UserInput|AgentOutput|ChatbotInstruction|ChatbotOutput|OutputLanguage|OutputFormat|Constraints|Constraint)(>)",
+					"begin": "(<)(AgentInstruction|Instructions|Instruction|Role|Description|Example|Query|Goal|Primary|Secondary|Tertiary|UserInput|AgentOutput|ChatbotInstruction|ChatbotOutput|OutputLanguage|OutputFormat|Constraints|Constraint|Tools|Tool)(>)",
 					"end": "(</)(\\2)(>)",
 					"beginCaptures": {
 						"1": { "name": "punctuation.definition.tag.begin.spl" },
