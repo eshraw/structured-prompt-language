@@ -99,6 +99,16 @@
         "body": ["<Constraint>$1</Constraint>"],
         "description": "Constraint tag"
     },
+    "Tools": {
+        "prefix": "Tools",
+        "body": ["<Tools>$1</Tools>"],
+        "description": "Tools tag"
+    },
+    "Tool": {
+        "prefix": "Tool",
+        "body": ["<Tool>$1</Tool>"],
+        "description": "Tool tag"
+    },
     "Template - AgentInstruction": {
         "prefix": "Template - AgentInstruction",
         "body": [
@@ -120,6 +130,11 @@
                     "\t\t\t$1",
                 "\t\t</Tertiary>",
             "\t</Goal>\n",
+            "\t<Tools>",
+                "\t\t<Tool>",
+                    "\t\t\t$1",
+                "\t\t</Tool>",
+            "\t</Tools>\n",
             "\t<Instructions>",
                 "\t\t<Instruction>",
                     "\t\t\t$1",
